@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     // Fetch data using the provided curl command
-    fetch('https://sk-soft-backend.jsa-app.workers.dev/student', {
+    fetch('https://api.sk-soft.in.th/student', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
